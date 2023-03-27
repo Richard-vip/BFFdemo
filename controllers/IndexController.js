@@ -1,4 +1,4 @@
-const Controller = require("./Controller")
+import Controller from "./Controller";
 
 class IndexController extends Controller {
     constructor() {
@@ -8,6 +8,11 @@ class IndexController extends Controller {
     async actionIndex(ctx, next) {
         ctx.body = await ctx.render('index', { message: 'hello world' });
     }
+
+    async actionRepoList(ctx) {
+        ctx.body = await ctx.render('repos')
+    }
 }
 
-module.exports = IndexController;
+
+export default IndexController;

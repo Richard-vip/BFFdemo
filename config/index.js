@@ -1,4 +1,4 @@
-const path = require('path');
+import path from 'path';
 
 
 let config = {
@@ -26,4 +26,5 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 
-module.exports = config;
+export default config;
+
