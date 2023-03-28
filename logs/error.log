@@ -1,15 +1,4 @@
-[2023-03-28T00:29:43.957] [ERROR] errorLog - Error: Unexpected tag "" on line 13 in file /Users/wangrenjie/Desktop/BFFdemo/views/repos.html.
-    at Object.exports.throwError (/Users/wangrenjie/Desktop/BFFdemo/node_modules/swig-templates/lib/utils.js:188:9)
-    at parseTag (/Users/wangrenjie/Desktop/BFFdemo/node_modules/swig-templates/lib/parser.js:675:13)
-    at /Users/wangrenjie/Desktop/BFFdemo/node_modules/swig-templates/lib/parser.js:778:15
-    at Object.exports.each (/Users/wangrenjie/Desktop/BFFdemo/node_modules/swig-templates/lib/utils.js:45:11)
-    at Object.exports.parse (/Users/wangrenjie/Desktop/BFFdemo/node_modules/swig-templates/lib/parser.js:755:9)
-    at exports.Swig.parse (/Users/wangrenjie/Desktop/BFFdemo/node_modules/swig-templates/lib/swig.js:383:19)
-    at exports.Swig.precompile (/Users/wangrenjie/Desktop/BFFdemo/node_modules/swig-templates/lib/swig.js:526:23)
-    at exports.Swig.compile (/Users/wangrenjie/Desktop/BFFdemo/node_modules/swig-templates/lib/swig.js:651:16)
-    at /Users/wangrenjie/Desktop/BFFdemo/node_modules/swig-templates/lib/swig.js:729:27
-    at FSReqCallback.readFileAfterClose [as oncomplete] (node:internal/fs/read_file_context:68:3)
-[2023-03-28T00:35:21.697] [ERROR] errorLog - Error: Unexpected tag "item.id" on line 13 in file /Users/wangrenjie/Desktop/BFFdemo/views/repos.html.
+[2023-03-29T01:10:26.140] [ERROR] errorLog - Error: Unexpected tag "item.id" on line 13 in file /Users/wangrenjie/Desktop/BFFdemo/views/repos.html.
     at Object.exports.throwError (/Users/wangrenjie/Desktop/BFFdemo/node_modules/swig-templates/lib/utils.js:188:9)
     at parseTag (/Users/wangrenjie/Desktop/BFFdemo/node_modules/swig-templates/lib/parser.js:675:13)
     at /Users/wangrenjie/Desktop/BFFdemo/node_modules/swig-templates/lib/parser.js:778:15

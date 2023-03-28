@@ -13,7 +13,7 @@ app.use(StaticServer(config.staticDir));
 app.context.render = co.wrap(render({
     root: config.viewDir,
     cache: config.cache,
-    tagControls:config.tagControls
+    varControls:config.varControls
 }));
 
 app.use(historyApiFallback({
